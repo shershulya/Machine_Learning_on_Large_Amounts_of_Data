@@ -1,0 +1,1 @@
+PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_PYTHON=/usr/bin/python3 PYSPARK_DRIVER_PYTHON_OPTS='notebook --ip="127.0.0.1" --port=30061 --no-browser' pyspark2 --master=yarn --num-executors=5 --conf spark.ui.port=30062
